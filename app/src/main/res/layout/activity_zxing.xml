@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/BC_edt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/BC_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生成二维码"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/BC_edt"
+        />
+
+    <Button
+        android:id="@+id/GOT_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="扫二维码"
+        android:layout_below="@+id/BC_btn"
+        android:layout_centerInParent="true"
+        android:layout_margin="50dp"/>
+
+    <ImageView
+        android:id="@+id/GOT_img"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
