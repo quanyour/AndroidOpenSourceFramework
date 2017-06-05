@@ -50,7 +50,8 @@ public class OKHttp3Utils {
         // 设置超时时间
         client.newBuilder().connectTimeout(TIMEOUT, TimeUnit.SECONDS)
                 .writeTimeout(TIMEOUT, TimeUnit.SECONDS)
-                .readTimeout(TIMEOUT, TimeUnit.SECONDS).build();
+                .readTimeout(TIMEOUT, TimeUnit.SECONDS)
+                .connectTimeout(TIMEOUT,TimeUnit.SECONDS).build();
 
     }
 

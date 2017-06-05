@@ -8,7 +8,7 @@ package open.main.config;
 
 public class UrlConfig {
 
-    private static String getUrl(){
+    public static String getUrl(){
         return "http://gank.io/api/data/%E7%A6%8F%E5%88%A9/10/1";
     }
 

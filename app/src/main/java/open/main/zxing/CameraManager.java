@@ -204,7 +204,7 @@ public final class CameraManager {
 	}
 
 	/**
-	 * Calculates the framing rect which the UI should draw to show the user
+	 * Calculates the framing rect which the UiActivity should draw to show the user
 	 * where to place the barcode. This target helps with alignment as well as
 	 * forces the user to hold the device far enough away to ensure the image
 	 * will be in focus.
@@ -243,7 +243,7 @@ public final class CameraManager {
 
 	/**
 	 * Like {@link #getFramingRect} but coordinates are in terms of the preview
-	 * frame, not UI / screen.
+	 * frame, not UiActivity / screen.
 	 */
 	public synchronized Rect getFramingRectInPreview() {
 		if (framingRectInPreview == null) {

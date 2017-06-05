@@ -13,44 +13,22 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
-                android:id="@+id/zxing"
+                android:id="@+id/okhttp3"
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="Zxing集成"
+                android:text="OKhttp3"
                 android:textSize="16sp"
                 android:gravity="center"
                 android:background="@color/gray"
                 android:textColor="@color/write"/>
 
             <TextView
-                android:id="@+id/http"
+                android:id="@+id/volley"
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="网络请求"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-            <TextView
-                android:id="@+id/ui"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="UI控件"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-            <TextView
-                android:id="@+id/video"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="短视频录制"
+                android:text="volley"
                 android:textSize="16sp"
                 android:gravity="center"
                 android:background="@color/gray"

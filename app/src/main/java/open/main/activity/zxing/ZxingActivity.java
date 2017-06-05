@@ -1,4 +1,4 @@
-package open.main.activity;
+package open.main.activity.zxing;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
