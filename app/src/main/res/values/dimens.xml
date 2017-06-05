@@ -1,0 +1,5 @@
+
+<resources>
+    <dimen name="toolbarTitle_size">20sp</dimen>
+    <dimen name="activity_margin_13dp">13dp</dimen>
+</resources>

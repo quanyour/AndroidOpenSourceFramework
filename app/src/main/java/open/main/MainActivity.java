@@ -10,6 +10,7 @@ import butterknife.InjectView;
 import butterknife.OnClick;
 import open.main.activity.htttp.HttpActivity;
 import open.main.activity.ui.UiActivity;
+import open.main.activity.video.VideoConfigActivity;
 import open.main.activity.zxing.ZxingActivity;
 import open.main.base.BaseActivity;
 
@@ -29,10 +30,13 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.inject(this);
+        setSwipeBackEnable(false);//主界面不允许滑动退出
+
+        setToolbarTitle("主界面");//添加主界面bar文字
     }
 
 
-    @OnClick({R.id.zxing, R.id.http, R.id.ui})
+    @OnClick({R.id.zxing, R.id.http, R.id.ui,R.id.video})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.zxing://Zxing 扫码界面
@@ -44,6 +48,12 @@ public class MainActivity extends BaseActivity {
             case R.id.ui://UI控件
                 startActivity(new Intent(MainActivity.this, UiActivity.class));
                 break;
+            case R.id.video://短视频录制
+                startActivity(new Intent(MainActivity.this, VideoConfigActivity.class));
+                break;
         }
     }
+
+
+
 }

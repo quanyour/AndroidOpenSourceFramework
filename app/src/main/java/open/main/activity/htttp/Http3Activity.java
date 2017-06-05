@@ -46,16 +46,19 @@ public class Http3Activity extends BaseActivity {
      * 请求方法  GET
      */
     public void doGet(){
+        showProgressView("正在加载");
         new OKHttp3Utils().get(UrlConfig.getUrl(), new OKHttp3Utils.HttpCallback() {
             @Override
             public void onSuccess(String data) {
                 GitBean bean= GsonUtil.parseJsonWithGson(data,GitBean.class);
                 content.setText(bean.toString());
+                dissmissProgressView();
             }
 
             @Override
             public void onError(String msg) {
                 content.setText("请求错误："+msg.toString());
+                dissmissProgressView();
             }
 
         });

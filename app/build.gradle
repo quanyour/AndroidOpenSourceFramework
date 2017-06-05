@@ -34,4 +34,8 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.7.0'
     //okhttp3请求
     compile files('libs/gson-2.2.4.jar')
+    //侧滑删除activity
+    compile 'me.imid.swipebacklayout.lib:library:1.0.0'
+    //拍摄短视频第三方
+    compile project(':SmallVideoLib')
 }

@@ -19,7 +19,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppThemeMain">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +27,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.zxing.ZxingActivity" />
-        <activity android:name=".zxing.CaptureActivity" />
-        <activity android:name=".activity.htttp.HttpActivity" />
-        <activity android:name=".activity.ui.UiActivity" />
-        <activity android:name=".activity.htttp.Http3Activity"></activity>
+        <activity android:name=".activity.zxing.ZxingActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".zxing.CaptureActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.htttp.HttpActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.ui.UiActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.htttp.Http3Activity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.video.VideoConfigActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name="mabeijianxi.camera.MediaRecorderActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.video.SendSmallVideoActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.video.VideoPlayerActivity"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>
