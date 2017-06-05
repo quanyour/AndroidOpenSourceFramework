@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="open.main.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/timeDialog"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="DateSelectorDialog"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/write"/>
+
+            <TextView
+                android:id="@+id/wheelView"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="WheelView"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/write"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

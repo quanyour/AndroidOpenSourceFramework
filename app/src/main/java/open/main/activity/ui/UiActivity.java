@@ -1,5 +1,6 @@
 package open.main.activity.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -28,6 +29,7 @@ public class UiActivity extends BaseActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.timeSelector:
+                startActivity(new Intent(UiActivity.this,TimeSelectorActivity.class));
                 break;
             case R.id.other:
                 break;

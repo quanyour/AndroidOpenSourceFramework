@@ -27,25 +27,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.zxing.ZxingActivity"
-            android:theme="@style/AppTheme"/>
-        <activity android:name=".zxing.CaptureActivity"
-            android:theme="@style/AppTheme"/>
-        <activity android:name=".activity.htttp.HttpActivity"
-            android:theme="@style/AppTheme"/>
-        <activity android:name=".activity.ui.UiActivity"
-            android:theme="@style/AppTheme"/>
-        <activity android:name=".activity.htttp.Http3Activity"
-            android:theme="@style/AppTheme"/>
-        <activity android:name=".activity.video.VideoConfigActivity"
-            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".activity.zxing.ZxingActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".zxing.CaptureActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.htttp.HttpActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ui.UiActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.htttp.Http3Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.video.VideoConfigActivity"
+            android:theme="@style/AppTheme" />
         <activity
             android:name="mabeijianxi.camera.MediaRecorderActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.video.SendSmallVideoActivity"
+        <activity
+            android:name=".activity.video.SendSmallVideoActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.video.VideoPlayerActivity"
-            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".activity.video.VideoPlayerActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.ui.TimeSelectorActivity"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
