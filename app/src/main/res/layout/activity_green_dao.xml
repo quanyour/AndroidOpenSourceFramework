@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="open.main.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/addOne"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="add one User"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/write"/>
+
+            <TextView
+                android:id="@+id/addList"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="add User List"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/write"/>
+
+            <TextView
+                android:id="@+id/deleteOne"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="delete one"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/write"/>
+
+            <TextView
+                android:id="@+id/updateOne"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="update one"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/write"/>
+
+            <TextView
+                android:id="@+id/selectList"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="selectList"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/write"/>
+            <TextView
+                android:id="@+id/deleteAll"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="deleteAll"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/write"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/selecListByAge"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="selecListByAge"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:background="@color/gray"
+                    android:textColor="@color/write"/>
+                <EditText
+                    android:id="@+id/ed1"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/queryUserByType"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:text="queryUserByType"
+                    android:textColor="@color/write"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ed2"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+                <EditText
+                    android:id="@+id/ed3"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

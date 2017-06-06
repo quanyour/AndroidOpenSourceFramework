@@ -8,6 +8,7 @@ import android.widget.TextView;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
+import open.main.activity.db.GreenDaoActivity;
 import open.main.activity.htttp.HttpActivity;
 import open.main.activity.ui.UiActivity;
 import open.main.activity.video.VideoConfigActivity;
@@ -24,6 +25,8 @@ public class MainActivity extends BaseActivity {
     TextView ui;
     @InjectView(R.id.video)
     TextView video;
+    @InjectView(R.id.greenDao)
+    TextView greenDao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +39,7 @@ public class MainActivity extends BaseActivity {
     }
 
 
-    @OnClick({R.id.zxing, R.id.http, R.id.ui,R.id.video})
+    @OnClick({R.id.zxing, R.id.http, R.id.ui, R.id.video,R.id.greenDao})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.zxing://Zxing 扫码界面
@@ -51,9 +54,11 @@ public class MainActivity extends BaseActivity {
             case R.id.video://短视频录制
                 startActivity(new Intent(MainActivity.this, VideoConfigActivity.class));
                 break;
+            case R.id.greenDao://greendao
+                startActivity(new Intent(MainActivity.this, GreenDaoActivity.class));
+                break;
         }
     }
-
 
 
 }

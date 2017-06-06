@@ -56,6 +56,17 @@
                 android:background="@color/gray"
                 android:textColor="@color/write"/>
 
+            <TextView
+                android:id="@+id/greenDao"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="greenDao"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@color/gray"
+                android:textColor="@color/write"/>
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

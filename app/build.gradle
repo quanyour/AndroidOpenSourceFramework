@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'org.greenrobot.greendao'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
@@ -17,6 +17,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    greendao {
+        schemaVersion 2 //这是修改数据库版本号，一定要注意位置，在apply plugin: 'org.greenrobot.greendao'下面
+        daoPackage 'open.main.db.greendao'//dao,DaoMaster,DaoSession的位置，默认是在build/generated/source/greendao目录下
+        targetGenDir 'src/main/java'//自动生成的代码放在哪个根目录下，默认的是build/generated/source/greendao目录下
+    }
 }
 
 dependencies {
@@ -24,18 +29,14 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile files('libs/core-3.1.0.jar')
-    //Zxing
-    //注解
-    //okhttp3请求
+    compile files('libs/core-3.1.0.jar')//Zxing
     compile files('libs/gson-2.2.4.jar')
-    //侧滑删除activity
-    //拍摄短视频第三方
-    compile project(':SmallVideoLib')
+    compile project(':SmallVideoLib')//拍摄短视频第三方
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.jakewharton:butterknife:6.1.0'
     compile 'com.squareup.okhttp3:okhttp:3.7.0'
     compile 'me.imid.swipebacklayout.lib:library:1.0.0'
+    compile 'org.greenrobot:greendao:3.2.0'
     testCompile 'junit:junit:4.12'
 }
