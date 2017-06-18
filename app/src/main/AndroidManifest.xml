@@ -60,7 +60,10 @@
         <activity
             android:name=".activity.ui.TimeSelectorActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.db.GreenDaoActivity"></activity>
+        <activity android:name=".activity.db.GreenDaoActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.image.ImagCompressActivity"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

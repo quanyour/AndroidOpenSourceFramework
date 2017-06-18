@@ -10,6 +10,7 @@ import butterknife.InjectView;
 import butterknife.OnClick;
 import open.main.activity.db.GreenDaoActivity;
 import open.main.activity.htttp.HttpActivity;
+import open.main.activity.image.ImagCompressActivity;
 import open.main.activity.ui.UiActivity;
 import open.main.activity.video.VideoConfigActivity;
 import open.main.activity.zxing.ZxingActivity;
@@ -27,6 +28,8 @@ public class MainActivity extends BaseActivity {
     TextView video;
     @InjectView(R.id.greenDao)
     TextView greenDao;
+    @InjectView(R.id.imageCompress)
+    TextView imageCompress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +42,7 @@ public class MainActivity extends BaseActivity {
     }
 
 
-    @OnClick({R.id.zxing, R.id.http, R.id.ui, R.id.video,R.id.greenDao})
+    @OnClick({R.id.zxing, R.id.http, R.id.ui, R.id.video, R.id.greenDao,R.id.imageCompress})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.zxing://Zxing 扫码界面
@@ -56,6 +59,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.greenDao://greendao
                 startActivity(new Intent(MainActivity.this, GreenDaoActivity.class));
+                break;
+            case R.id.imageCompress://imageCompress
+                startActivity(new Intent(MainActivity.this, ImagCompressActivity.class));
                 break;
         }
     }
