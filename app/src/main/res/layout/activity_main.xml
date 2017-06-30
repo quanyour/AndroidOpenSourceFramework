@@ -4,80 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="open.main.MainActivity">
-
-    <ScrollView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/zxing"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="zxing"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-            <TextView
-                android:id="@+id/http"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="net"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-            <TextView
-                android:id="@+id/ui"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="UI"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-            <TextView
-                android:id="@+id/video"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="video"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-            <TextView
-                android:id="@+id/greenDao"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="greenDao"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-            <TextView
-                android:id="@+id/imageCompress"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="imageCompress"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-        </LinearLayout>
-    </ScrollView>
+        android:layout_height="match_parent"/>
 </RelativeLayout>

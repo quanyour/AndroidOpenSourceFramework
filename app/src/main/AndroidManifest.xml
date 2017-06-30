@@ -12,9 +12,8 @@
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -60,10 +59,29 @@
         <activity
             android:name=".activity.ui.TimeSelectorActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.db.GreenDaoActivity"
-            android:theme="@style/AppTheme"/>
-        <activity android:name=".activity.image.ImagCompressActivity"
-            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".activity.db.GreenDaoActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.image.ImagCompressActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ui.MPAndroidChartActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.chart.LineChartActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.chart.BarChartActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.chart.HorizontalBarChartActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.chart.PieChartActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.chart.RadarChartActivitry"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

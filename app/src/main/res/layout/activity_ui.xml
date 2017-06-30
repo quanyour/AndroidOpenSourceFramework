@@ -5,35 +5,8 @@
     android:layout_height="match_parent"
     tools:context="open.main.MainActivity">
 
-    <ScrollView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/timeSelector"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="时间选择器"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-            <TextView
-                android:id="@+id/other"
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="其他控件"
-                android:textSize="16sp"
-                android:gravity="center"
-                android:background="@color/gray"
-                android:textColor="@color/write"/>
-
-        </LinearLayout>
-    </ScrollView>
+        android:layout_height="match_parent"/>
 </RelativeLayout>
