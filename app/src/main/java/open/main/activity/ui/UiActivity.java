@@ -44,6 +44,7 @@ public class UiActivity extends BaseActivity {
         List<String> list=new ArrayList<>();
         list.add("时间选择器");
         list.add("图表");
+        list.add("轮播图");
         return list;
     }
 
@@ -74,6 +75,9 @@ public class UiActivity extends BaseActivity {
                     }
                     if (TextUtils.equals(s, "图表")) {
                         startActivity(new Intent(UiActivity.this, MPAndroidChartActivity.class));
+                    }
+                    if (TextUtils.equals(s, "轮播图")) {
+                        startActivity(new Intent(UiActivity.this, BannerActivity.class));
                     }
                 }
             });

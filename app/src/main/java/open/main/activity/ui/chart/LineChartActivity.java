@@ -1,4 +1,4 @@
-package open.main.activity.chart;
+package open.main.activity.ui.chart;
 
 import android.graphics.Color;
 import android.graphics.DashPathEffect;

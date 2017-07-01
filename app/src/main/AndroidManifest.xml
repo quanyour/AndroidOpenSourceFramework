@@ -69,19 +69,22 @@
             android:name=".activity.ui.MPAndroidChartActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activity.chart.LineChartActivity"
+            android:name=".activity.ui.chart.LineChartActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activity.chart.BarChartActivity"
+            android:name=".activity.ui.chart.BarChartActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activity.chart.HorizontalBarChartActivity"
+            android:name=".activity.ui.chart.HorizontalBarChartActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activity.chart.PieChartActivity"
+            android:name=".activity.ui.chart.PieChartActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.chart.RadarChartActivitry"
+        <activity
+            android:name=".activity.ui.chart.RadarChartActivitry"
             android:theme="@style/AppTheme" />
+        <activity android:name=".activity.ui.BannerActivity"
+            android:theme="@style/AppTheme" ></activity>
     </application>
 
 </manifest>
