@@ -27,7 +27,7 @@ import android.util.Log;
 
 
 /**
- * Finishes an activity after a period of inactivity if the device is on battery power.
+ * Finishes an activity after TwitterRefreshHeaderView period of inactivity if the device is on battery power.
  */
 public final class InactivityTimer {
 

@@ -18,10 +18,11 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 import open.main.R;
 import open.main.base.BaseActivity;
+import open.main.config.UrlConfig;
 
 /**
  * 轮播图
- * https://github.com/youth5201314/banner
+ * GitHub地址：https://github.com/youth5201314/banner
  */
 public class BannerActivity extends BaseActivity {
 
@@ -37,7 +38,7 @@ public class BannerActivity extends BaseActivity {
     Banner banner5;
     @InjectView(R.id.banner6)
     Banner banner6;
-    List<String> images = new ArrayList<>();
+
     List<String> titles = new ArrayList<>();
 
 
@@ -62,7 +63,7 @@ public class BannerActivity extends BaseActivity {
         //设置图片加载器
         banner1.setImageLoader(new GlideImageLoader());
         //设置图片集合
-        banner1.setImages(images);
+        banner1.setImages(UrlConfig.getImageList());
         //设置banner动画效果
         banner1.setBannerAnimation(Transformer.DepthPage);
         //设置标题集合（当banner样式有显示title时）
@@ -83,7 +84,7 @@ public class BannerActivity extends BaseActivity {
         //设置图片加载器
         banner2.setImageLoader(new GlideImageLoader());
         //设置图片集合
-        banner2.setImages(images);
+        banner2.setImages(UrlConfig.getImageList());
         //设置banner动画效果
         banner2.setBannerAnimation(Transformer.Accordion);
         //设置标题集合（当banner样式有显示title时）
@@ -104,7 +105,7 @@ public class BannerActivity extends BaseActivity {
         //设置图片加载器
         banner3.setImageLoader(new GlideImageLoader());
         //设置图片集合
-        banner3.setImages(images);
+        banner3.setImages(UrlConfig.getImageList());
         //设置banner动画效果
         banner3.setBannerAnimation(Transformer.BackgroundToForeground);
         //设置标题集合（当banner样式有显示title时）
@@ -125,7 +126,7 @@ public class BannerActivity extends BaseActivity {
         //设置图片加载器
         banner4.setImageLoader(new GlideImageLoader());
         //设置图片集合
-        banner4.setImages(images);
+        banner4.setImages(UrlConfig.getImageList());
         //设置banner动画效果
         banner4.setBannerAnimation(Transformer.ForegroundToBackground);
         //设置标题集合（当banner样式有显示title时）
@@ -146,7 +147,7 @@ public class BannerActivity extends BaseActivity {
         //设置图片加载器
         banner5.setImageLoader(new GlideImageLoader());
         //设置图片集合
-        banner5.setImages(images);
+        banner5.setImages(UrlConfig.getImageList());
         //设置banner动画效果
         banner5.setBannerAnimation(Transformer.CubeIn);
         //设置标题集合（当banner样式有显示title时）
@@ -167,7 +168,7 @@ public class BannerActivity extends BaseActivity {
         //设置图片加载器
         banner6.setImageLoader(new GlideImageLoader());
         //设置图片集合
-        banner6.setImages(images);
+        banner6.setImages(UrlConfig.getImageList());
         //设置banner动画效果
         banner6.setBannerAnimation(Transformer.CubeOut);
         //设置标题集合（当banner样式有显示title时）
@@ -184,18 +185,11 @@ public class BannerActivity extends BaseActivity {
 
 
     public void initData() {
-        images.add("http://tupian.aladd.net/photo12/811.jpg");
-        images.add("http://pic1.52shijing.com/52shijing/mb/d/file/20170617/cca64b0643d68972aac59bc9a5087086_1000_1000.jpg");
-        images.add("http://img.mp.itc.cn/upload/20170528/4fcd9b66f3814839b283cd09f5e7bb8c_th.jpg");
-        images.add("http://n.sinaimg.cn/translate/20170523/FhOU-fyfkzhs9750611.jpg");
-        images.add("http://img4.imgtn.bdimg.com/it/u=43182179,3795724289&fm=11&gp=0.jpg");
-
         titles.add("标题1");
         titles.add("标题2");
         titles.add("标题3");
         titles.add("标题4");
         titles.add("标题5");
-
     }
 
     public class GlideImageLoader extends ImageLoader {

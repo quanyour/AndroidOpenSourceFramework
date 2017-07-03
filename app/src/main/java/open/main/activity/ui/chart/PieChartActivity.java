@@ -98,7 +98,7 @@ public class PieChartActivity extends BaseActivity implements SeekBar.OnSeekBarC
         // mChart.setUnit(" €");
         // mChart.setDrawUnitsInChart(true);
 
-        // add a selection listener
+        // add TwitterRefreshHeaderView selection listener
         mChart.setOnChartValueSelectedListener(this);
 
         setData(4, 100);
@@ -231,7 +231,7 @@ public class PieChartActivity extends BaseActivity implements SeekBar.OnSeekBarC
         dataSet.setIconsOffset(new MPPointF(0, 40));
         dataSet.setSelectionShift(5f);
 
-        // add a lot of colors
+        // add TwitterRefreshHeaderView lot of colors
 
         ArrayList<Integer> colors = new ArrayList<Integer>();
 

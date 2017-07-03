@@ -39,7 +39,7 @@ final class CameraConfigurationManager {
 
 	private static final String TAG = "CameraConfiguration";
 
-	// This is bigger than the size of a small screen, which is still supported.
+	// This is bigger than the size of TwitterRefreshHeaderView small screen, which is still supported.
 	// The routine
 	// below will still select the default (presumably 320x240) size for these.
 	// This prevents

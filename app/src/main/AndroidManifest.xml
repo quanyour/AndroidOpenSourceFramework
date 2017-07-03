@@ -83,8 +83,12 @@
         <activity
             android:name=".activity.ui.chart.RadarChartActivitry"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.ui.BannerActivity"
-            android:theme="@style/AppTheme" ></activity>
+        <activity
+            android:name=".activity.ui.BannerActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ui.SwipeToLoadLayoutActivity"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

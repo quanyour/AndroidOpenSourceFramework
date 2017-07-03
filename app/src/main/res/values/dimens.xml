@@ -2,4 +2,7 @@
 <resources>
     <dimen name="toolbarTitle_size">20sp</dimen>
     <dimen name="activity_margin_13dp">13dp</dimen>
+    <dimen name="refresh_header_height_twitter">80dp</dimen>
+    <dimen name="load_more_footer_height_twitter">60dp</dimen>
+    <dimen name="load_more_footer_height_classic">60dp</dimen>
 </resources>

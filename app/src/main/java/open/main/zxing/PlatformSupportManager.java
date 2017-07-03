@@ -34,9 +34,9 @@ import java.util.TreeMap;
  * has checked the API level. This requires reflection, loading one of several implementations based on the
  * API level.</p>
  *
- * <p>This class manages that process. Subclasses of this class manage access to implementations of a given interface
+ * <p>This class manages that process. Subclasses of this class manage access to implementations of TwitterRefreshHeaderView given interface
  * in an API-level-aware way. Subclasses implementation classes <em>by name</em>, and the minimum API level that
- * the implementation is compatible with. They also provide a default implementation.</p>
+ * the implementation is compatible with. They also provide TwitterRefreshHeaderView default implementation.</p>
  *
  * <p>At runtime an appropriate implementation is then chosen, instantiated and returned from {@link #build()}.</p>
  *

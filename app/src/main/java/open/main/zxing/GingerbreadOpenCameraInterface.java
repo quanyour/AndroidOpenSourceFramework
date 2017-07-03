@@ -30,7 +30,7 @@ public final class GingerbreadOpenCameraInterface implements OpenCameraInterface
   private static final String TAG = "GingerbreadOpenCamera";
 
   /**
-   * Opens a rear-facing camera with {@link Camera#open(int)}, if one exists, or opens camera 0.
+   * Opens TwitterRefreshHeaderView rear-facing camera with {@link Camera#open(int)}, if one exists, or opens camera 0.
    */
   @Override
   public Camera open() {

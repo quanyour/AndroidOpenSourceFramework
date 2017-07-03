@@ -93,7 +93,7 @@ public class LineChartActivity extends BaseActivity implements SeekBar.OnSeekBar
         // set an alternative background color
         // mChart.setBackgroundColor(Color.GRAY);
 
-        // create a custom MarkerView (extend MarkerView) and specify the layout
+        // create TwitterRefreshHeaderView custom MarkerView (extend MarkerView) and specify the layout
         // to use for it
         MyMarkerView mv = new MyMarkerView(this, R.layout.custom_marker_view);
         mv.setChartView(mChart); // For bounds control
@@ -371,7 +371,7 @@ public class LineChartActivity extends BaseActivity implements SeekBar.OnSeekBar
             mChart.getData().notifyDataChanged();
             mChart.notifyDataSetChanged();
         } else {
-            // create a dataset and give it a type
+            // create TwitterRefreshHeaderView dataset and give it TwitterRefreshHeaderView type
             set1 = new LineDataSet(values, "DataSet 1");
 
             set1.setDrawIcons(false);
@@ -402,7 +402,7 @@ public class LineChartActivity extends BaseActivity implements SeekBar.OnSeekBar
             ArrayList<ILineDataSet> dataSets = new ArrayList<ILineDataSet>();
             dataSets.add(set1); // add the datasets
 
-            // create a data object with the datasets
+            // create TwitterRefreshHeaderView data object with the datasets
             LineData data = new LineData(dataSets);
 
             // set data

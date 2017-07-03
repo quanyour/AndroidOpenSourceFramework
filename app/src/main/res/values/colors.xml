@@ -49,4 +49,5 @@
     <color name="color_4e3d31">#4e3d31</color>
     <color name="grey8">#888888</color>
     <color name="transparent_black_85">#DA000000</color>
+    <color name="style_window_background">#212121</color>
 </resources>
