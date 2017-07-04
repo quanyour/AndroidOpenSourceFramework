@@ -24,12 +24,12 @@
         "source": "F:\\practiceCode\\AndroidOpenSource\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_camera_flash_led_off_normal.png"
     },
     {
-        "merged": "F:\\practiceCode\\AndroidOpenSource\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_camera_switch_normal.png",
-        "source": "F:\\practiceCode\\AndroidOpenSource\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_camera_switch_normal.png"
-    },
-    {
         "merged": "F:\\practiceCode\\AndroidOpenSource\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_delete_normal.png",
         "source": "F:\\practiceCode\\AndroidOpenSource\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_delete_normal.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_camera_switch_normal.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\SmallVideoLib\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\record_camera_switch_normal.png"
     },
     {
         "merged": "F:\\practiceCode\\AndroidOpenSource\\SmallVideoLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\record_delete_press.png",

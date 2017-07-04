@@ -35,11 +35,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile files('libs/core-3.1.0.jar')
-    //Zxing
     compile files('libs/gson-2.2.4.jar')
     compile project(':SmallVideoLib')
-    //拍摄短视频第三方
-    //glide
     compile project(path: ':MPChartLib')
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.jakewharton:butterknife:6.1.0'

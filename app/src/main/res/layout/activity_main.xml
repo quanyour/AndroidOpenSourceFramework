@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="open.main.MainActivity">
+    tools:context="open.main.MainActivity"
+    android:background="?attr/root_view_bg">
+    <RelativeLayout
+        android:id="@+id/ll_night"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/sun"
+                android:text="日/夜间模式"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="?attr/btn_bg"
+                android:textColor="?attr/text_color"/>
+    </RelativeLayout>
     <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/ll_night"
         android:id="@+id/list"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </RelativeLayout>

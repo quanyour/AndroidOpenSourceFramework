@@ -20,4 +20,32 @@
         <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
         <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
     </style>
+
+    <!-- 日间主题 -->
+    <style name="DayTheme" parent="AppTheme">
+        <item name="root_view_bg">@drawable/bg_day</item>
+        <item name="btn_bg">@color/white_btn_color</item>
+        <item name="text_color">@color/black_tx_color</item>
+    </style>
+
+    <!-- 夜间主题 -->
+    <style name="NightTheme" parent="AppTheme">
+        <item name="root_view_bg">@drawable/bg_night</item>
+        <item name="btn_bg">@color/black_btn_color</item>
+        <item name="text_color">@color/white_tx_color</item>
+    </style>
+
+    <!-- 主界面 日间主题 -->
+    <style name="DayThemeMain" parent="AppThemeMain">
+        <item name="root_view_bg">@color/gray</item>
+        <item name="btn_bg">@color/white_btn_color</item>
+        <item name="text_color">@color/black_tx_color</item>
+    </style>
+
+    <!--主界面 夜间主题 -->
+    <style name="NightThemeMain" parent="AppThemeMain">
+        <item name="root_view_bg">@color/black_tx_color</item>
+        <item name="btn_bg">@color/black_btn_color</item>
+        <item name="text_color">@color/white_tx_color</item>
+    </style>
 </resources>
