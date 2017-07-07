@@ -1,5 +1,7 @@
 package open.main.config;
 
+import android.os.Environment;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,4 +35,9 @@ public class UrlConfig {
         return images;
     }
 
+
+    public static String getVideoPath(){
+        return Environment
+                .getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)+"/Camera/VID_20170705_170033.mp4";
+    }
 }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="open.main">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -14,6 +14,12 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:name=".base.App"
@@ -44,18 +50,6 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".activity.htttp.Http3Activity"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".activity.video.VideoConfigActivity"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name="mabeijianxi.camera.MediaRecorderActivity"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".activity.video.SendSmallVideoActivity"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".activity.video.VideoPlayerActivity"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".activity.ui.TimeSelectorActivity"
@@ -90,6 +84,18 @@
         <activity
             android:name=".activity.ui.SwipeToLoadLayoutActivity"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ui.CrossXwalkActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.mabeijianxi.smallvideorecord2.MediaRecorderActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.video.VideoConfigActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.video.SendSmallVideoActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.video.VideoPlayerActivity"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

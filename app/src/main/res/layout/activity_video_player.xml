@@ -15,8 +15,8 @@
         android:textColor="#45C01A"
         android:visibility="gone"
         android:text="发布"  />
-    
-    <mabeijianxi.camera.views.SurfaceVideoView
+
+    <com.mabeijianxi.smallvideorecord2.SurfaceVideoView
         android:id="@+id/videoview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:contentDescription="@string/imageview_content_description"
-        android:src="@mipmap/play_big"
+        android:src="@drawable/play_big"
         android:visibility="gone" />
 
     <ProgressBar

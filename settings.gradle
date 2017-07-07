@@ -1,1 +1,1 @@
-include ':app','SmallVideoLib','MPChartLib'
+include ':app','MPChartLib',"crosswalk"

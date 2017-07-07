@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import org.xwalk.core.XWalkActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +22,7 @@ import butterknife.OnClick;
 import open.main.activity.db.GreenDaoActivity;
 import open.main.activity.htttp.HttpActivity;
 import open.main.activity.image.ImagCompressActivity;
+import open.main.activity.ui.CrossXwalkActivity;
 import open.main.activity.ui.UiActivity;
 import open.main.activity.video.VideoConfigActivity;
 import open.main.activity.zxing.ZxingActivity;
@@ -118,6 +121,8 @@ public class MainActivity extends BaseActivity {
         list.add("video");
         list.add("greenDao");
         list.add("imageCompress");
+        list.add("XWALK");
+        //http://opencv.org/releases.html
         return list;
     }
 
@@ -176,6 +181,9 @@ public class MainActivity extends BaseActivity {
                     }
                     if (TextUtils.equals(s, "imageCompress")) {
                         startActivity(new Intent(MainActivity.this, ImagCompressActivity.class));
+                    }
+                    if (TextUtils.equals(s,"XWALK")){
+                        startActivity(new Intent(MainActivity.this, CrossXwalkActivity.class));
                     }
                 }
             });

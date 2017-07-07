@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="open.main.activity.video.VideoConfigActivity">
+    <android.support.v7.widget.CardView
+    android:id="@+id/goVideo"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="50dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@color/blue">
+    <TextView
+        android:text="拍摄视频"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/goCompress"
+        android:layout_below="@+id/goVideo"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/blue">
+        <TextView
+            android:text="压缩视频"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_below="@+id/goCompress"
+        android:layout_width="match_parent"
+        android:background="@color/blue"
+        android:layout_height="80dp" />
+</RelativeLayout>

@@ -4,24 +4,21 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import mabeijianxi.camera.MediaRecorderActivity;
+import com.mabeijianxi.smallvideorecord2.MediaRecorderActivity;
+
 import open.main.R;
+import open.main.base.BaseActivity;
 
-
-/**
- * Created by jian on 2016/7/21 15:52
- * mabeijianxi@gmail.com
- */
-public class SendSmallVideoActivity extends AppCompatActivity implements View.OnClickListener {
+public class SendSmallVideoActivity extends BaseActivity implements View.OnClickListener{
 
     private String videoUri;
     private TextView tv_send;
@@ -58,7 +55,7 @@ public class SendSmallVideoActivity extends AppCompatActivity implements View.On
     }
 
     private void initView() {
-        setContentView(R.layout.smallvideo_text_edit_activity);
+        setContentView(R.layout.activity_send_small_video);
 
         tv_cancel = (TextView) findViewById(R.id.tv_cancel);
         tv_send = (TextView) findViewById(R.id.tv_send);
@@ -114,5 +111,4 @@ public class SendSmallVideoActivity extends AppCompatActivity implements View.On
             dialog.show();
         }
     }
-
 }

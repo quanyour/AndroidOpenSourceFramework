@@ -16,11 +16,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
 
-import mabeijianxi.camera.MediaRecorderBase;
-import mabeijianxi.camera.util.DeviceUtils;
-import mabeijianxi.camera.util.Log;
-import mabeijianxi.camera.util.StringUtils;
-import mabeijianxi.camera.views.SurfaceVideoView;
+import com.mabeijianxi.smallvideorecord2.DeviceUtils;
+import com.mabeijianxi.smallvideorecord2.MediaRecorderBase;
+import com.mabeijianxi.smallvideorecord2.StringUtils;
+import com.mabeijianxi.smallvideorecord2.SurfaceVideoView;
+
 import open.main.R;
 
 
@@ -86,7 +86,6 @@ public class VideoPlayerActivity extends AppCompatActivity implements
 //		mVideoView.getLayoutParams().height = DeviceUtils.getScreenWidth(this);
 
         findViewById(R.id.root).setOnClickListener(this);
-        Log.e("mPath",mPath);
         mVideoView.setVideoPath(mPath);
     }
 
