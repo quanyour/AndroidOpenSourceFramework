@@ -29,8 +29,8 @@ android项目的重新设计(剥离非业务代码到lib，让所有功能代码
 
 # 项目中遇到问题解决
 1.之前视频的第三方库报出了java.lang.UnsatisfiedLinkE异常，判断应该是.so或者.so文件使用上的问题，
-从github上将.so文件拉下来重新配置gradle.build问题解决。
-2.XWALK提示CPU架构不兼容提示框，最后检查是其中一个.so文件没有数据，重新下载官网的.so文件替换即可
+从github上将.so文件拉下来重新配置gradle.build问题解决。<br>
+2.XWALK提示CPU架构不兼容提示框，最后检查是其中一个.so文件没有数据，重新下载官网的.so文件替换即可.<br>
 
 
 
