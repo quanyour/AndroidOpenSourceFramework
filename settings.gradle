@@ -1,1 +1,2 @@
-include ':app','MPChartLib',"crosswalk"
+include ':app', 'MPChartLib', "crosswalk"
+include ':openCVLibrary330'

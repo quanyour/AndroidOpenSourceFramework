@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_search.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dropdown_label_color.xml",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\dropdown_label_color.xml"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\color_button_background.xml",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\color_button_background.xml"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ondemand_overlay.9.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ondemand_overlay.9.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dropdown_popup_background.xml",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\dropdown_popup_background.xml"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\button_compat_shape.xml",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\button_compat_shape.xml"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\color_picker_border.xml",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\color_picker_border.xml"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dropdown_popup_background_down.9.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\dropdown_popup_background_down.9.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bubble_arrow_up.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\bubble_arrow_up.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dropdown_popup_background_up.9.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\dropdown_popup_background_up.9.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_warning.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_warning.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\verify_checkmark.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\verify_checkmark.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_share_holo_light.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\color_picker_advanced_select_handle.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\color_picker_advanced_select_handle.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bubble.9.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\bubble.9.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\autofill_chip_inset.xml",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable\\autofill_chip_inset.xml"
+    }
+]

@@ -7,14 +7,15 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
 
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -90,12 +91,30 @@
         <activity
             android:name="com.mabeijianxi.smallvideorecord2.MediaRecorderActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.video.VideoConfigActivity"
+        <activity
+            android:name=".activity.video.VideoConfigActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.video.SendSmallVideoActivity"
+        <activity
+            android:name=".activity.video.SendSmallVideoActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.video.VideoPlayerActivity"
-            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".activity.video.VideoPlayerActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.opencv.OpenCVActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.opencv.ImageManipulationsActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboardHidden|orientation"/>
     </application>
+
+
+    <!-- OpenCV -->
+    <!-- 用于精确获取屏幕密度 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"/>
 
 </manifest>

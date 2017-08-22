@@ -1,0 +1,1090 @@
+[
+    {
+        "outputFile": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endColumn": 67,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 121,
+                        "endColumn": 67,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 64,
+                    "endOffset": 249
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 64,
+                        "endOffset": 249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 254,
+                    "endColumn": 70,
+                    "endOffset": 320
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 254,
+                        "endColumn": 70,
+                        "endOffset": 320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 325,
+                    "endColumn": 69,
+                    "endOffset": 390
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 325,
+                        "endColumn": 69,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 395,
+                    "endColumn": 66,
+                    "endOffset": 457
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 66,
+                        "endOffset": 457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 462,
+                    "endColumn": 65,
+                    "endOffset": 523
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 462,
+                        "endColumn": 65,
+                        "endOffset": 523
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 528,
+                    "endColumn": 73,
+                    "endOffset": 597
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 528,
+                        "endColumn": 73,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 602,
+                    "endColumn": 69,
+                    "endOffset": 667
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 602,
+                        "endColumn": 69,
+                        "endOffset": 667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 672,
+                    "endColumn": 70,
+                    "endOffset": 738
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 70,
+                        "endOffset": 738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 743,
+                    "endColumn": 55,
+                    "endOffset": 794
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 743,
+                        "endColumn": 55,
+                        "endOffset": 794
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 799,
+                    "endColumn": 78,
+                    "endOffset": 873
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 799,
+                        "endColumn": 78,
+                        "endOffset": 873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 878,
+                    "endColumn": 69,
+                    "endOffset": 943
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 878,
+                        "endColumn": 69,
+                        "endOffset": 943
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 948,
+                    "endColumn": 101,
+                    "endOffset": 1045
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 948,
+                        "endColumn": 101,
+                        "endOffset": 1045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1050,
+                    "endColumn": 109,
+                    "endOffset": 1155
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1050,
+                        "endColumn": 109,
+                        "endOffset": 1155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1160,
+                    "endColumn": 61,
+                    "endOffset": 1217
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1160,
+                        "endColumn": 61,
+                        "endOffset": 1217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1222,
+                    "endColumn": 59,
+                    "endOffset": 1277
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1222,
+                        "endColumn": 59,
+                        "endOffset": 1277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1282,
+                    "endColumn": 65,
+                    "endOffset": 1343
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1282,
+                        "endColumn": 65,
+                        "endOffset": 1343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1348,
+                    "endColumn": 59,
+                    "endOffset": 1403
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1348,
+                        "endColumn": 59,
+                        "endOffset": 1403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1408,
+                    "endColumn": 61,
+                    "endOffset": 1465
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1408,
+                        "endColumn": 61,
+                        "endOffset": 1465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1470,
+                    "endColumn": 65,
+                    "endOffset": 1531
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1470,
+                        "endColumn": 65,
+                        "endOffset": 1531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1536,
+                    "endColumn": 58,
+                    "endOffset": 1590
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1536,
+                        "endColumn": 58,
+                        "endOffset": 1590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1595,
+                    "endColumn": 58,
+                    "endOffset": 1649
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1595,
+                        "endColumn": 58,
+                        "endOffset": 1649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1654,
+                    "endColumn": 64,
+                    "endOffset": 1714
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1654,
+                        "endColumn": 64,
+                        "endOffset": 1714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1719,
+                    "endColumn": 62,
+                    "endOffset": 1777
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1719,
+                        "endColumn": 62,
+                        "endOffset": 1777
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1782,
+                    "endColumn": 65,
+                    "endOffset": 1843
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1782,
+                        "endColumn": 65,
+                        "endOffset": 1843
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1848,
+                    "endColumn": 73,
+                    "endOffset": 1917
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1848,
+                        "endColumn": 73,
+                        "endOffset": 1917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1922,
+                    "endColumn": 51,
+                    "endOffset": 1969
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1922,
+                        "endColumn": 51,
+                        "endOffset": 1969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1974,
+                    "endColumn": 64,
+                    "endOffset": 2034
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1974,
+                        "endColumn": 64,
+                        "endOffset": 2034
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2039,
+                    "endColumn": 54,
+                    "endOffset": 2089
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2039,
+                        "endColumn": 54,
+                        "endOffset": 2089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2094,
+                    "endColumn": 95,
+                    "endOffset": 2185
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2094,
+                        "endColumn": 95,
+                        "endOffset": 2185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2190,
+                    "endColumn": 61,
+                    "endOffset": 2247
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2190,
+                        "endColumn": 61,
+                        "endOffset": 2247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2252,
+                    "endColumn": 73,
+                    "endOffset": 2321
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2252,
+                        "endColumn": 73,
+                        "endOffset": 2321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2326,
+                    "endColumn": 63,
+                    "endOffset": 2385
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2326,
+                        "endColumn": 63,
+                        "endOffset": 2385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2390,
+                    "endColumn": 71,
+                    "endOffset": 2457
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2390,
+                        "endColumn": 71,
+                        "endOffset": 2457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2462,
+                    "endColumn": 83,
+                    "endOffset": 2541
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2462,
+                        "endColumn": 83,
+                        "endOffset": 2541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2546,
+                    "endColumn": 104,
+                    "endOffset": 2646
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2546,
+                        "endColumn": 104,
+                        "endOffset": 2646
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2651,
+                    "endColumn": 63,
+                    "endOffset": 2710
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2651,
+                        "endColumn": 63,
+                        "endOffset": 2710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2715,
+                    "endColumn": 134,
+                    "endOffset": 2845
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2715,
+                        "endColumn": 134,
+                        "endOffset": 2845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2850,
+                    "endColumn": 94,
+                    "endOffset": 2940
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2850,
+                        "endColumn": 94,
+                        "endOffset": 2940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2945,
+                    "endColumn": 87,
+                    "endOffset": 3028
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2945,
+                        "endColumn": 87,
+                        "endOffset": 3028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3033,
+                    "endColumn": 71,
+                    "endOffset": 3100
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 3033,
+                        "endColumn": 71,
+                        "endOffset": 3100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3105,
+                    "endColumn": 70,
+                    "endOffset": 3171
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 3105,
+                        "endColumn": 70,
+                        "endOffset": 3171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3176,
+                    "endColumn": 74,
+                    "endOffset": 3246
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 3176,
+                        "endColumn": 74,
+                        "endOffset": 3246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3251,
+                    "endColumn": 131,
+                    "endOffset": 3378
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3251,
+                        "endColumn": 131,
+                        "endOffset": 3378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3383,
+                    "endColumn": 92,
+                    "endOffset": 3471
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 3383,
+                        "endColumn": 92,
+                        "endOffset": 3471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3476,
+                    "endColumn": 153,
+                    "endOffset": 3625
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 3476,
+                        "endColumn": 153,
+                        "endOffset": 3625
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3630,
+                    "endColumn": 88,
+                    "endOffset": 3714
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3630,
+                        "endColumn": 88,
+                        "endOffset": 3714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3719,
+                    "endColumn": 116,
+                    "endOffset": 3831
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3719,
+                        "endColumn": 116,
+                        "endOffset": 3831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3836,
+                    "endColumn": 57,
+                    "endOffset": 3889
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3836,
+                        "endColumn": 57,
+                        "endOffset": 3889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3894,
+                    "endColumn": 72,
+                    "endOffset": 3962
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3894,
+                        "endColumn": 72,
+                        "endOffset": 3962
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3967,
+                    "endColumn": 74,
+                    "endOffset": 4037
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 3967,
+                        "endColumn": 74,
+                        "endOffset": 4037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4042,
+                    "endColumn": 57,
+                    "endOffset": 4095
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 4042,
+                        "endColumn": 57,
+                        "endOffset": 4095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4100,
+                    "endColumn": 77,
+                    "endOffset": 4173
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 4100,
+                        "endColumn": 77,
+                        "endOffset": 4173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4178,
+                    "endColumn": 70,
+                    "endOffset": 4244
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4178,
+                        "endColumn": 70,
+                        "endOffset": 4244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4249,
+                    "endColumn": 68,
+                    "endOffset": 4313
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 4249,
+                        "endColumn": 68,
+                        "endOffset": 4313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4318,
+                    "endColumn": 72,
+                    "endOffset": 4386
+                },
+                "from": {
+                    "file": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4318,
+                        "endColumn": 72,
+                        "endOffset": 4386
+                    }
+                }
+            }
+        ]
+    }
+]

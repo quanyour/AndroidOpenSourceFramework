@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/crosswalk/crosswalk.iml" filepath="$PROJECT_DIR$/crosswalk/crosswalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary330/openCVLibrary330.iml" filepath="$PROJECT_DIR$/openCVLibrary330/openCVLibrary330.iml" />
     </modules>
   </component>
 </project>

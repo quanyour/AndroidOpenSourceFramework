@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\empty.wav",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\raw\\empty.wav"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\launch_screen_api.js",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\raw\\launch_screen_api.js"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\xwalk.pak",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\raw\\xwalk.pak"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\icudtl.dat",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\raw\\icudtl.dat"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\wifidirect_api.js",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\raw\\wifidirect_api.js"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\xwalk_100_percent.pak",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\raw\\xwalk_100_percent.pak"
+    }
+]

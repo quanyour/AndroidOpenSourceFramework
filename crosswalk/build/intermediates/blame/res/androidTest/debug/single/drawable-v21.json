@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\button_compat.xml",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable-v21\\button_compat.xml"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\button_borderless_compat.xml",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable-v21\\button_borderless_compat.xml"
+    }
+]

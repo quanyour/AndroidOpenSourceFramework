@@ -16,18 +16,20 @@ android快速开发框架，集成Zxing，数据库，网络请求，常用工�
 2017-7-4-18.15，Prism(未使用)、Colorful框架日夜间切换<br>
 2017-7-1-10.47，XWalk简单集成使用(后续还会继续挖掘其使用方法)<br>
 2017-7-7-18.35，添加适配7.0拍照的工具类CameraUtil,添加ToastUtil工具类,添加bugly异常上报，更换视频拍摄第三方库<br>
+2017-8-22-15.37，android-openCV集成与使用<br>
 
 # 未完成
 EventBus<br>
 百度地图<br>
 动画<br>
-Rx+OKhttp3封装<br>
+Rx+OKhttp3+Retrofit封装<br>
 bottomsheet<br>
 MD相关效果实现<br>
 android项目的重新设计(剥离非业务代码到lib，让所有功能代码直接引用即可)<br>
+Vitamin视频框架集成<br>
 视频加水印<br>
 
-# 项目中遇到问题解决
+# 项目中遇到的问题及解决
 1.之前视频的第三方库报出了java.lang.UnsatisfiedLinkE异常，判断应该是.so或者.so文件使用上的问题，
 从github上将.so文件拉下来重新配置gradle.build问题解决。<br>
 2.XWALK提示CPU架构不兼容提示框，最后检查是其中一个.so文件没有数据，重新下载官网的.so文件替换即可.<br>

@@ -2,12 +2,12 @@ package open.main.base;
 
 import android.app.Application;
 import android.os.Environment;
-
 import com.mabeijianxi.smallvideorecord2.DeviceUtils;
 import com.mabeijianxi.smallvideorecord2.JianXiCamera;
 import com.tencent.bugly.crashreport.CrashReport;
-
 import java.io.File;
+
+
 
 
 /**
@@ -15,11 +15,14 @@ import java.io.File;
  */
 
 public class App extends Application {
+    private static App application;
+
     @Override
     public void onCreate() {
         super.onCreate();
         //bugly初始化
         CrashReport.initCrashReport(getApplicationContext(), "5f34993292", true);
+
 
         //初始化视频拍摄
         initSmallVideo();

@@ -3,6 +3,7 @@ package open.main.view;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -95,19 +96,22 @@ public class TwitterRefreshHeaderView extends SwipeRefreshHeaderLayout {
         Log.e(TAG,"onMove");
         if (!isComplete) {
             ivArrow.setVisibility(GONE);
-            progressBar.setVisibility(VISIBLE);
+            progressBar.setVisibility(GONE);
             ivSuccess.setVisibility(GONE);
             if (y > mHeaderHeight) {
                 tvRefresh.setText("RELEASE TO REFRESH");
                 if (!rotated) {
                     ivArrow.clearAnimation();
                     ivArrow.startAnimation(rotateUp);
+                    progressBar.setVisibility(View.VISIBLE);
+                    ivArrow.setVisibility(View.GONE);
                     rotated = true;
                 }
             } else if (y < mHeaderHeight) {
                 if (rotated) {
                     ivArrow.clearAnimation();
                     ivArrow.startAnimation(rotateDown);
+                    progressBar.setVisibility(View.GONE);
                     rotated = false;
                 }
 

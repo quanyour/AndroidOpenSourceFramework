@@ -22,6 +22,7 @@ import butterknife.OnClick;
 import open.main.activity.db.GreenDaoActivity;
 import open.main.activity.htttp.HttpActivity;
 import open.main.activity.image.ImagCompressActivity;
+import open.main.activity.opencv.OpenCVActivity;
 import open.main.activity.ui.CrossXwalkActivity;
 import open.main.activity.ui.UiActivity;
 import open.main.activity.video.VideoConfigActivity;
@@ -122,6 +123,7 @@ public class MainActivity extends BaseActivity {
         list.add("greenDao");
         list.add("imageCompress");
         list.add("XWALK");
+        list.add("OpenCV");
         //http://opencv.org/releases.html
         return list;
     }
@@ -184,6 +186,9 @@ public class MainActivity extends BaseActivity {
                     }
                     if (TextUtils.equals(s,"XWALK")){
                         startActivity(new Intent(MainActivity.this, CrossXwalkActivity.class));
+                    }
+                    if (TextUtils.equals(s,"OpenCV")){
+                        startActivity(new Intent(MainActivity.this, OpenCVActivity.class));
                     }
                 }
             });

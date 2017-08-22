@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\ic_warning.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\ic_warning.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\ic_menu_share_holo_light.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\ic_search.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\ic_search.png"
+    },
+    {
+        "merged": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\verify_checkmark.png",
+        "source": "F:\\practiceCode\\AndroidOpenSource\\crosswalk\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\verify_checkmark.png"
+    }
+]

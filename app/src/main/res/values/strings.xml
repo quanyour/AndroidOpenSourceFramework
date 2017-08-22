@@ -56,6 +56,10 @@
     <string name="record_preview_tab_theme">主题</string>
     <string name="record_preview_tab_filter">滤镜</string>
     <string name="record_preview_building">视频生成中…</string>
+    <string name="record_check_available_faild">手机满了！至少需要%sM存储空间才能继续拍摄！</string>
+
+    <!-- Vcamera   -->
+
 
     <string-array name="velocity">
         <item>none</item>

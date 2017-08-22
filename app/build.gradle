@@ -48,6 +48,8 @@ dependencies {
     compile files('libs/gson-2.2.4.jar')
     compile project(path: ':MPChartLib')
     compile project(path: ':crosswalk')
+    //    compile 'org.xwalk:xwalk_core_library:21.51.546.7'
+    compile project(':openCVLibrary330')
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     compile 'com.jakewharton:butterknife:6.1.0'
     compile 'com.squareup.okhttp3:okhttp:3.7.0'
@@ -64,8 +66,8 @@ dependencies {
     compile 'com.github.Aspsine:SwipeToLoadLayout:1.0.4'
     compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
     compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    compile 'com.mabeijianxi:small-video-record2:2.0.0@aar'
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC0'
-    compile 'com.mabeijianxi:small-video-record2:2.0.0@aar'
-//    compile 'org.xwalk:xwalk_core_library:21.51.546.7'
+    compile project(path: ':openCVLibrary330')
 }
