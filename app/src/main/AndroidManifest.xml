@@ -7,10 +7,18 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
 
-    <uses-feature android:name="android.hardware.camera" android:required="false"/>
-    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
-    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
-    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -21,6 +29,15 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- OpenCV -->
+    <!-- 用于精确获取屏幕密度 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
 
     <application
         android:name=".base.App"
@@ -100,21 +117,14 @@
         <activity
             android:name=".activity.video.VideoPlayerActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.opencv.OpenCVActivity"
+        <activity
+            android:name=".activity.opencv.OpenCVActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".activity.opencv.ImageManipulationsActivity"
-            android:screenOrientation="landscape"
-            android:configChanges="keyboardHidden|orientation"/>
+        <activity
+            android:name=".activity.opencv.ImageManipulationsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity.htttp.OkGoActivity"></activity>
     </application>
-
-
-    <!-- OpenCV -->
-    <!-- 用于精确获取屏幕密度 -->
-    <supports-screens
-        android:anyDensity="true"
-        android:largeScreens="true"
-        android:normalScreens="true"
-        android:resizeable="true"
-        android:smallScreens="true"/>
 
 </manifest>

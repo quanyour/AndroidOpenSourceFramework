@@ -24,11 +24,11 @@
                 android:textColor="@color/write"/>
 
             <TextView
-                android:id="@+id/volley"
+                android:id="@+id/OkGo"
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="volley"
+                android:text="OkGo"
                 android:textSize="16sp"
                 android:gravity="center"
                 android:background="@color/gray"

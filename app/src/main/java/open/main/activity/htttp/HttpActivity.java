@@ -15,8 +15,8 @@ public class HttpActivity extends BaseActivity {
 
     @InjectView(R.id.okhttp3)
     TextView okhttp3;
-    @InjectView(R.id.volley)
-    TextView volley;
+    @InjectView(R.id.OkGo)
+    TextView OkGo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,14 +26,14 @@ public class HttpActivity extends BaseActivity {
     }
 
 
-    @OnClick({R.id.okhttp3, R.id.volley})
+    @OnClick({R.id.okhttp3, R.id.OkGo})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.okhttp3://Okhttp3 请求
             startActivity(new Intent(HttpActivity.this,Http3Activity.class));
                 break;
-            case R.id.volley:
-
+            case R.id.OkGo:
+                startActivity(new Intent(HttpActivity.this,OkGoActivity.class));
                 break;
         }
     }
