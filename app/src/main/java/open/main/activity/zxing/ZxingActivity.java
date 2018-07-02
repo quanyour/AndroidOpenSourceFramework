@@ -19,6 +19,11 @@ import open.main.base.BaseActivity;
 import open.main.zxing.CaptureActivity;
 import open.main.zxing.EncodingHandler;
 
+/**
+ * 关于Zxing 性能和其他功能优化的bolg
+ * https://www.cnblogs.com/sickworm/p/4562081.html
+ */
+
 public class ZxingActivity extends BaseActivity {
 
     @InjectView(R.id.BC_edt)

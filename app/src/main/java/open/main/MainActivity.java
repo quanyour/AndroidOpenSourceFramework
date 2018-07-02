@@ -20,6 +20,7 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
 import open.main.activity.db.GreenDaoActivity;
+import open.main.activity.dowload.DowLoadActivity;
 import open.main.activity.htttp.HttpActivity;
 import open.main.activity.image.ImagCompressActivity;
 import open.main.activity.opencv.OpenCVActivity;
@@ -124,6 +125,7 @@ public class MainActivity extends BaseActivity {
         list.add("imageCompress");
         list.add("XWALK");
         list.add("OpenCV");
+        list.add("MultitaskDowload");
         //http://opencv.org/releases.html
         return list;
     }
@@ -189,6 +191,9 @@ public class MainActivity extends BaseActivity {
                     }
                     if (TextUtils.equals(s,"OpenCV")){
                         startActivity(new Intent(MainActivity.this, OpenCVActivity.class));
+                    }
+                    if (TextUtils.equals(s,"MultitaskDowload")){
+                        startActivity(new Intent(MainActivity.this, DowLoadActivity.class));
                     }
                 }
             });

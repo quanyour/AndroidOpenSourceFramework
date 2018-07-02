@@ -1,7 +1,10 @@
 package open.main.base;
 
 import android.app.Application;
+import android.content.Context;
 import android.os.Environment;
+import android.support.multidex.MultiDex;
+
 import com.mabeijianxi.smallvideorecord2.DeviceUtils;
 import com.mabeijianxi.smallvideorecord2.JianXiCamera;
 import com.tencent.bugly.crashreport.CrashReport;
@@ -45,5 +48,11 @@ public class App extends Application {
         }
         // 初始化拍摄
         JianXiCamera.initialize(false,null);
+    }
+
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        MultiDex.install(this);
     }
 }

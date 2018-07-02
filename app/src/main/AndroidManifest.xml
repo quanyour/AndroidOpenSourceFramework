@@ -124,7 +124,8 @@
             android:name=".activity.opencv.ImageManipulationsActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="landscape" />
-        <activity android:name=".activity.htttp.OkGoActivity"></activity>
+        <activity android:name=".activity.htttp.OkGoActivity" />
+        <activity android:name=".activity.dowload.DowLoadActivity"></activity>
     </application>
 
 </manifest>

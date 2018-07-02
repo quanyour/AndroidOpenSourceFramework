@@ -174,7 +174,7 @@ public class BaseActivity extends AppComSwipeBackActivity{
                     v.postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            v.setEnabled(false);
+                            v.setEnabled(true);
                         }
                     },800);
                     listener.onClick(v);

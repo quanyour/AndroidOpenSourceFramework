@@ -10,6 +10,7 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
+        multiDexEnabled = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
             // 设置支持的SO库架构
@@ -49,7 +50,7 @@ dependencies {
     compile project(path: ':MPChartLib')
     compile project(path: ':crosswalk')
     //    compile 'org.xwalk:xwalk_core_library:21.51.546.7'
-    compile project(':openCVLibrary330')
+//    compile project(':openCVLibrary330')
     compile project(path: ':openCVLibrary330')
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     compile 'com.jakewharton:butterknife:6.1.0'
@@ -71,4 +72,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC0'
     compile 'com.lzy.net:okgo:3.0.4'
+    compile 'com.lzy.net:okgo:3.0.4'
+    compile 'com.android.support:multidex:1.0.1'
 }

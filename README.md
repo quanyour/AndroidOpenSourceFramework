@@ -34,6 +34,11 @@ Vitamin视频框架集成<br>
 1.之前视频的第三方库报出了java.lang.UnsatisfiedLinkE异常，判断应该是.so或者.so文件使用上的问题，
 从github上将.so文件拉下来重新配置gradle.build问题解决。<br>
 2.XWALK提示CPU架构不兼容提示框，最后检查是其中一个.so文件没有数据，重新下载官网的.so文件替换即可.<br>
+3.Execution failed for task ':app:transformClassesWithDexForDebug'.<br>
+  > com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: <br>
+  java.util.concurrent.ExecutionException: com.android.dex.DexIndexOverflowException:<br>
+  Cannot merge new index 66617 into a non-jumbo instruction!<br>
+  解决：http://blog.csdn.net/huningjun/article/details/52821829
 
 
 
